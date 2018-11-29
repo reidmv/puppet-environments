@@ -9,7 +9,7 @@ environmentspath: permanent:temporary
 # which Yaml environment definition to use to source modules from.
 dynamic-environments:
   puppet-code:
-    source: http://gitlab.sts.puppet.vm/puppet/puppet-code.git
+    remote: http://gitlab.sts.puppet.vm/puppet/puppet-code.git
     type: git
     prefix: git
     use-modules-from: development
