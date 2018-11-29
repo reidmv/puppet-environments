@@ -1,0 +1,15 @@
+---
+# Where to look for environment Yaml files. Path is relative to
+# puppet-environments.yaml configuration file.
+environmentspath: permanent:temporary
+
+# Configure git development sources from which to create dynamic Puppet
+# environments, based on git branches. Each entry should follow the "source"
+# syntax for r10k.yaml. Use the additional key "use-modules-from" to specify
+# which Yaml environment definition to use to source modules from.
+dynamic-environments:
+  puppet-code:
+    source: http://gitlab.sts.puppet.vm/puppet/puppet-code.git
+    type: git
+    prefix: git
+    use-modules-from: development

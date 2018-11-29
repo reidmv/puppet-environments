@@ -1,7 +1,11 @@
 # Puppet Environments repo #
 
-This repository contains Puppet environment definitions, one per Yaml file.
-Each definition includes:
+This repository contains Puppet environment definitions, one per Yaml file. The
+`environments.yaml` file at the root configures where to read definitions from,
+and also configures dynamic environments to define based on branches in source
+code.
+
+Each environment Yaml definition includes:
 
 * The base environment content—source and version of Puppet code from a control
   repository, deployed to the basedir of the environment.
