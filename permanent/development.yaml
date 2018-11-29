@@ -3,5 +3,5 @@ base:
   source: 'http://gitlab.sts.puppet.vm/puppet/puppet-code.git'
   ref: 'dev'
 
-modules: { }
-
+modules:
+  geoffwilliams-r_profile: '1.1.2'
