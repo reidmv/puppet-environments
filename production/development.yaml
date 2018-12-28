@@ -1,0 +1,7 @@
+---
+base:
+  source: 'https://github.com/reidmv/puppet-code.git'
+  ref: 'master'
+
+modules:
+  geoffwilliams-r_profile: '1.1.2'
