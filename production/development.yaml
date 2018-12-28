@@ -1,6 +1,6 @@
 ---
 base:
-  source: 'https://github.com/reidmv/puppet-code.git'
+  source: 'https://github.com/reidmv/control-repo.git'
   ref: 'master'
 
 modules:

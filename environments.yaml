@@ -1,7 +1,7 @@
 ---
 # Where to look for environment Yaml files. Path is relative to
 # puppet-environments.yaml configuration file.
-environmentspath: permanent:temporary
+environmentspath: production:development
 
 # Configure git development sources from which to create dynamic Puppet
 # environments, based on git branches. Each entry should follow the "source"

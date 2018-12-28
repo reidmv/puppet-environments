@@ -1,6 +1,6 @@
 ---
 base:
-  source: 'http://gitlab.sts.puppet.vm/puppet/puppet-code.git'
+  source: 'https://github.com/reidmv/control-repo.git'
   ref: '1.0.0'
 
 modules:
