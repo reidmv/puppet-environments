@@ -9,7 +9,7 @@ environmentspath: production:development
 # which Yaml environment definition to use to source modules from.
 dynamic-environments:
   puppet-code:
-    remote: http://gitlab.sts.puppet.vm/puppet/puppet-code.git
+    remote: https://github.com/reidmv/control-repo.git
     type: git
     prefix: git
     use-modules-from: development
